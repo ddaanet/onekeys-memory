@@ -1,0 +1,4 @@
+- [Sandbox-protected paths](sandbox-protected-paths.md) — git checkout/reset/branch-d and atomic mv on .claude/settings.json & .git/config fail under sandbox; disable it for those ops
+- [Release marketplace push blocked](release-marketplace-push-blocked.md) — just release pushes the separate claude-plugins repo too; classifier blocks that push, user must run it manually
+- [settings.json enabledPlugins edit blocked](settings-enabledplugins-blocked.md) — classifier blocks Claude editing enabledPlugins even after approval; give user a !-command instead
+- [Sandbox phantom dotfiles](sandbox-phantom-dotfiles.md) — sandboxed git status shows fake untracked home dotfiles; trust unsandboxed git status
