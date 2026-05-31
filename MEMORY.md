@@ -2,3 +2,4 @@
 - [Release marketplace push blocked](release-marketplace-push-blocked.md) — just release pushes the separate claude-plugins repo too; classifier blocks that push, user must run it manually
 - [settings.json enabledPlugins edit blocked](settings-enabledplugins-blocked.md) — classifier blocks Claude editing enabledPlugins even after approval; give user a !-command instead
 - [Sandbox phantom dotfiles](sandbox-phantom-dotfiles.md) — sandboxed git status shows fake untracked home dotfiles; trust unsandboxed git status
+- [Validate non-TDD tests by mutation](test-validation-by-mutation.md) — tests written after the code must each be turned red by a deliberate fault to prove they bite
