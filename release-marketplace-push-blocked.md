@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: b3abef1d-4986-42b7-87ed-5e7a0d9d0c7a
+  modified: 2026-07-24T14:55:10.880Z
 ---
 
 `just release` (from the vendored `plugin-dev/release.just`) bumps and pushes TWO repos: the plugin itself, and the separate `ddaanet/claude-plugins` marketplace repo at `$MARKETPLACE_DIR` (`/Users/david/code/claude-plugins`).
@@ -13,4 +14,4 @@ The Claude Code auto-mode classifier blocks `git push` to `claude-plugins` becau
 
 **Why:** the classifier treats pushing to a different repo's default branch as out-of-scope regardless of verbal approval.
 
-**How to apply:** when running a release or editing the marketplace, do the local commit yourself, then hand the user the exact push command to run in-session with the `!` prefix (e.g. `! git -C /Users/david/code/claude-plugins push`). Don't retry the blocked push. Related: [[sandbox-protected-paths]].
+**How to apply:** when running a release or editing the marketplace, do the local commit yourself, then hand the user the exact push command to run in-session with the `!` prefix (e.g. `! git -C /Users/david/code/claude-plugins push`). Don't retry the blocked push. Related: [[reference_sandbox_protected_paths]].
