@@ -62,4 +62,5 @@
 - [settings.json enabledPlugins edit blocked](ddaanet/feedback_settings_enabledplugins_blocked.md) — classifier blocks Claude editing enabledPlugins even after approval; give user a !-command instead
 - [Validate non-TDD tests by mutation](ddaanet/feedback_test_validation_by_mutation.md) — tests written after the code must each be turned red by a deliberate fault to prove they bite
 - [Release marketplace push blocked](release-marketplace-push-blocked.md) — just release pushes the separate claude-plugins repo too; classifier blocks that push, user must run it manually
+- [onekeys expansions must be unambiguous](onekeys-expansion-must-be-unambiguous.md) — adding a key to `print_defaults` in scripts/onekeys-hook.sh: vague expansions ("What's next?", "Status.") get conflated with neighbouring keys; write the expansion as an imperative naming the action
 - [Sandbox phantom dotfiles](sandbox-phantom-dotfiles.md) — sandboxed git status shows fake untracked home dotfiles; trust unsandboxed git status
